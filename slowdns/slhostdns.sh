@@ -10,7 +10,7 @@ rm nsdomain
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
 DOMAIN=mantapxsl.my.id
-SUB_DOMAIN=marco-${sub}.sshcf.xyz
+SUB_DOMAIN=sg-${sub}.sshcf.xyz
 NS_DOMAIN=slowdns-${subsl}.sshcf.xyz
 CF_ID=baxiamania@gmail.com
 CF_KEY=e790e6961a311853568fbccd227e043533482
